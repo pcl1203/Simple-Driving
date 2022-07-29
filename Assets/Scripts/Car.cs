@@ -6,11 +6,24 @@ public class Car : MonoBehaviour
 {
    [SerializeField] private float speed = 10f;
    [SerializeField] private float speedGainPerSecond = 0.20f;
+   [SerializeField] private float turnSpeed = 200f;
+
+   private int steerValue = 0;
 
     // Update is called once per frame
     void Update()
     {
+      // Time.deltaTime to have the same movement with slower phones
+
       speed += speedGainPerSecond * Time.deltaTime;
+
+      transform.Rotate(0f, steerValue * turnSpeed * Time.deltaTime, 0f);
+
       transform.Translate(Vector3.forward * speed * Time.deltaTime);
+
+
     }
+   public void Steer(int value) {
+      steerValue = value;
+   }
 }
