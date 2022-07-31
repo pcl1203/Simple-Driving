@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Car : MonoBehaviour
 {
@@ -23,6 +24,12 @@ public class Car : MonoBehaviour
 
 
     }
+   private void OnTriggerEnter(Collider other)
+   {
+      if (other.CompareTag("Obstacle")) {
+         SceneManager.LoadScene("Scene_MainMenu"); // can be index depending on the arangement on the scenes
+      }
+   }
    public void Steer(int value) {
       steerValue = value;
    }
