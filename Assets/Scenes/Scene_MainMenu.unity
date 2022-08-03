@@ -254,6 +254,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highScoreText: {fileID: 190401960}
   previousScoreText: {fileID: 1344485739}
+  energyText: {fileID: 2014886533}
+  maxEnergy: 5
+  energyRechargeDuration: 1
 --- !u!1 &190401959
 GameObject:
   m_ObjectHideFlags: 0

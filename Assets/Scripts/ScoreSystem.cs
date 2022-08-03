@@ -8,7 +8,7 @@ public class ScoreSystem : MonoBehaviour
    [SerializeField] private TMP_Text scoreText;
    [SerializeField] private float scoreMultiplier;
    public const string HighScoreKey = "HighScore";
-   public const string PreviusScoreKey = "PrevScore";
+   public const string PreviousScoreKey = "PrevScore";
    private float score;
     // Update is called once per frame
     void Update()
@@ -21,6 +21,6 @@ public class ScoreSystem : MonoBehaviour
    {
       int currentHighscore = PlayerPrefs.GetInt(HighScoreKey, 0); //
       if (score > currentHighscore) PlayerPrefs.SetInt(HighScoreKey, Mathf.FloorToInt(score));
-      PlayerPrefs.SetInt(PreviusScoreKey, Mathf.FloorToInt(score));
+      PlayerPrefs.SetInt(PreviousScoreKey, Mathf.FloorToInt(score));
    }
 }
