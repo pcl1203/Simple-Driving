@@ -8362,7 +8362,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471453003}
-  m_LocalRotation: {x: 0.18513627, y: 8.574703e-16, z: -1.0682346e-16, w: 0.98271286}
+  m_LocalRotation: {x: 0.18513626, y: -0.000000014643564, z: 0.0000000027587455, w: 0.98271286}
   m_LocalPosition: {x: 3.3614428, y: 23.4, z: -34.650948}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15620,7 +15620,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.18513627, y: 8.574703e-16, z: -1.0682346e-16, w: 0.98271286}
+  m_LocalRotation: {x: 0.18513626, y: -0.000000014643564, z: 0.0000000027587455, w: 0.98271286}
   m_LocalPosition: {x: 3.3614428, y: 23.4, z: -34.650948}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16808,7 +16808,7 @@ PrefabInstance:
     - target: {fileID: 23430031505414554, guid: 2e23bb932cf4ec7498eb4b727d9113fa, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6968e89851431104b8f931c37d69356b, type: 2}
+      objectReference: {fileID: 2100000, guid: 5abb3d18170c7cc4b8ce3577ef8b5ed8, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e23bb932cf4ec7498eb4b727d9113fa, type: 3}
@@ -25448,7 +25448,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -210.12}
+  m_margin: {x: 0, y: 0, z: 0, w: -284.875}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
